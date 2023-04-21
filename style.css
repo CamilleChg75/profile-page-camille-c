@@ -1,0 +1,217 @@
+/* Write some CSS below : */
+
+/* Breaking points */
+@media (max-width: 960px) {
+    .container {
+      width: 900px;
+    }
+    .cards-inline {
+    grid-template-columns: 1fr 2fr;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .container {
+      width: 680px;
+    }
+    .cards-inline {
+    grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .container {
+      width: 480px;
+    }
+    .cards-inline {
+      grid-template-columns: 1fr 1fr;
+    }
+    }
+  
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+
+selector {font-family:"nanum" ; font-size:18px}
+
+body { background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+        }
+
+body{font-family: 'nanum gothic', sans-serif;}
+
+h1{color:#de8088; 
+    font-size:32px;
+    text-align: center;
+    }
+
+h2{color:#fbabb2; 
+        font-size:28px; 
+        text-align: center; 
+        padding-top:5px;
+        padding-bottom:15px;
+    }
+
+h3{color: #ebc09a; 
+            font-size:20px; 
+    }
+
+.titre-exp-pro{
+    text-align: center;
+    }
+
+
+p{color:#000000; 
+    font-size:18px;
+    padding-bottom: 20px;
+    }
+
+.btn-pink{
+    text-decoration: none;
+    background-color:#ffffff ;
+    border: 3px solid #ff9a9e ;
+    border-radius: 5px;
+    color:#ff9a9e;
+    font-weight: 600;
+    padding: 15px 20px;
+    }
+
+.btn-pink:hover {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    color: #ffffff ; 
+    border: 10px solid #ffffff ;
+    border-radius: 5px;
+    }
+
+.btn-menu{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #de8088;
+    font-weight: 600;
+    padding: 15px 20px;
+    border: 3px solid #de8088;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+.btn-menu:hover {
+    background-color: #de8088;
+    color: #ffffff; 
+    }
+
+
+img{
+    border-radius: 50px;
+    width: 170px;
+    }
+
+#intro{
+    margin-bottom: 40px;
+    margin-top: 25px;
+    }
+
+#photo-profil{
+    width: 175px;
+    border-radius: 50%;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+.logo{
+    width: 100px;
+    border-radius: 0%;
+    }
+
+.card-white{
+    padding:40px;
+    border-radius: 15px;
+    margin: 40px auto; 
+    }
+
+.list-inline{
+    list-style: none;
+    margin-left: 0;
+    display: inline;
+    font-size:37px;
+    color:#ff9a9e;
+    }
+
+.list-inline li{
+    margin: 0 20px;
+    display: inline-flex;
+    }
+
+.container{
+    width: 900px;
+    margin:10px auto;
+    text-align: center;
+    }
+
+.fa-instagram:hover{
+    color: #ff9a9e; 
+    border: 1px solid #ff9a9e;
+    }
+
+.fa-solid:hover{
+    color: #ff9a9e; 
+    border: 1px solid #ff9a9e;
+    }
+
+.fa-linkedin-in:hover{
+    color: #ff9a9e; 
+    border: 1px solid #ff9a9e;
+    }
+
+#titre-card-1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+
+.card-presentation{
+    border: 5px solid #de8088;
+    background-color: #ffffff;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+.card-pro{
+    border: 5px solid #FBABB2;
+    background-color: #ffffff;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+.card-formations{
+    border: 5px solid #fcdbbe;
+    background-color: #ffffff;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+.card-hobbies{
+    border: 5px solid #f1e7b4;
+    background-color: #ffffff;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+.card-contact{
+    border: 5px solid #fff9da;
+    background-color: #ffffff;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+    }
+
+/* grids card */
+
+.exp{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 16px;
+    }
+
+.detail-exp{
+    text-align: left;
+    }
+
+.exp-logo{
+    height: 180px;
+    border-radius: 4px;
+    padding-top: 30px;
+    }
+
+
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
